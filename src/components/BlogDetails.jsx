@@ -22,10 +22,10 @@ const BlogDetails = () => {
 
     return (
         <div className='bg-gray-100 h-screen'>
-            <div className="absolute hidden lg:block top-[20%] transform -rotate-90">Blog Details</div>
+            <div className="absolute hidden lg:block left-1 top-[20%] transform -rotate-90">Blog Details</div>
             <div className="container mx-auto px-5 lg:px-0 py-5">
                <div className=' p-2 bg-white'>
-                 <h2 className='text-4xl mb-2'>{blog.title}</h2>
+                 <h2 className='text-4xl mb-2 capitalize'>{blog.title}</h2>
                  <p>{blog.body}</p>
                  <div className="comments mt-3">
                     <h4 className='text-xl font-semibold text-gray-600'>Comments</h4>
