@@ -22,7 +22,6 @@ const BlogDetails = () => {
 
     return (
         <div className='bg-gray-100 h-screen'>
-            <div className="absolute hidden lg:block -left-5 top-[20%] transform -rotate-90">Blog Details</div>
             <div className="container mx-auto px-5 lg:px-0 py-5">
                <div className=' p-2 bg-white'>
                  <h2 className='text-4xl mb-2 capitalize'>{blog.title}</h2>
