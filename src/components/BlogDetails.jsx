@@ -18,7 +18,7 @@ const BlogDetails = () => {
             await blogDetailsUserApi(id)
             await blogDetailsUserPhotoApi(id)
         })()
-    },[])
+    },[id])
 
     return (
         <div className='bg-gray-100 h-screen'>
